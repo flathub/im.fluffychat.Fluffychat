@@ -50,7 +50,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/0.23.1/fluffychat-linux.tar.gz",
+                    "url": "https://gitlab.com/ChristianPauly/fluffychat-flutter/-/package_files/4907690/download",
                     "dest-filename": "fluffychat-linux.tar.gz",
                     "dest": "fluffychat",
                     "sha256": "511ce5ed63e6d4e6c0d3600654dcb8f4b7dd98738c21653582dd2fbd415d8cc6"
