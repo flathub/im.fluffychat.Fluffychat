@@ -33,7 +33,11 @@
 
   <screenshots>
     <screenshot>
-      <image type="source">https://i.imgur.com/r04ZATP.png</image>
+      <image type="source">https://gitlab.com/ChristianPauly/fluffychat-website/-/raw/master/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-55-08.png</image>
+      <image type="source">https://gitlab.com/ChristianPauly/fluffychat-website/-/raw/master/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-55-48.png</image>
+      <image type="source">https://gitlab.com/ChristianPauly/fluffychat-website/-/raw/master/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-55-18.png</image>
+      <image type="source">https://gitlab.com/ChristianPauly/fluffychat-website/-/raw/master/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-54-16.png</image>
+      <image type="source">https://gitlab.com/ChristianPauly/fluffychat-website/-/raw/master/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-54-49.png</image>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
