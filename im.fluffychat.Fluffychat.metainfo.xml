@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>im.fluffychat.Fluffychat</id>
   <name>Fluffychat</name>
-  <summary>FluffyChat - Chat with your friends</summary>
+  <summary>Chat with your friends</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>AGPL-3.0-only</project_license>
   <recommends>
@@ -14,20 +14,16 @@
   <url type="homepage">https://fluffychat.im</url>
   <description>
     <p>Open. Nonprofit. Cute ♥</p>
-    <p>This is an early Linux build of a Flutter based Android app, some features and parts of UI might be broken or missing</p>
-    <p>9 greatest FluffyChat features:</p>
-    <ul>
-      <li>Opensource and open development where everyone can join</li>
-      <li>Nonprofit - FluffyChat is donation funded</li>
-      <li>Cute design and many theme settings including a dark mode</li>
-      <li>Unlimited groups and direct chats</li>
-      <li>FluffyChat is made as simple to use as possible</li>
-      <li>Free to use for everyone without ads</li>
-      <li>FluffyChat can use your addressbook to find your friends or you can use usernames</li>
-      <li>There is no "FluffyChat server" you are forced to use. Use the server you find trustworthy or host your own</li>
-      <li>Compatible with Element, Fractal, Nheko and all matrix messengers</li>
-    </ul>
-    
+    <p>Open - Opensource and open development where everyone can join.</p>
+    <p>Nonprofit - FluffyChat is made for fun and not for profit.</p>
+    <p>Cute ♥ - Cute design and many theme settings including a dark mode.</p>
+    <p>One-to-one and groupchats - Unlimited groups and direct chats.</p>
+    <p>Easy - FluffyChat is made as simple to use as possible.</p>
+    <p>Free - Free to use for everyone without ads.</p>
+    <p>Connective - Invite your friends to FluffyChat.</p>
+    <p>Decentralized - There is no "FluffyChat server" you are forced to use. Use the server you find trustworthy or host your own.</p>
+    <p>Compatible - Compatible with Element, Fractal, Nheko and all matrix messengers.</p>
+
     <p>Join the discussion: #fluffychat:matrix.org</p>
   </description>
 
