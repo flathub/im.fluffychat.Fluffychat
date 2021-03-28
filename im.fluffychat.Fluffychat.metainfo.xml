@@ -15,7 +15,7 @@
   <description>
     <p>Open. Nonprofit. Cute ♥</p>
     <p>This is an early Linux build of a Flutter based Android app, some features and parts of UI might be broken or missing</p>
-    <p>9 greatest FluffyChat features:</p>
+    <p>Greatest FluffyChat features:</p>
     <ul>
       <li>Opensource and open development where everyone can join</li>
       <li>Nonprofit - FluffyChat is donation funded</li>
@@ -23,7 +23,6 @@
       <li>Unlimited groups and direct chats</li>
       <li>FluffyChat is made as simple to use as possible</li>
       <li>Free to use for everyone without ads</li>
-      <li>FluffyChat can use your addressbook to find your friends or you can use usernames</li>
       <li>There is no "FluffyChat server" you are forced to use. Use the server you find trustworthy or host your own</li>
       <li>Compatible with Element, Fractal, Nheko and all matrix messengers</li>
     </ul>
