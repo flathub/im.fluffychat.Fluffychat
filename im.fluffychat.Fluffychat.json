@@ -50,10 +50,10 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/8678772/download",
+                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/9186593/download",
                     "dest-filename": "fluffychat-linux.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "86f7b23e8b4ce9c29b37a86698a5b078cc4bf9d0c7b66577bdaad1d6771c0c3c"
+                    "sha256": "7738115e8740b93fa1618e19097cc1b3ae1ea36e453ab5eb4054aa555bb5440e"
                 },
                 {
                     "type": "file",
