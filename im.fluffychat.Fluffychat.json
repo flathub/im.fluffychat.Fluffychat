@@ -62,7 +62,7 @@
                     "url": "https://gitlab.com/famedly/fluffychat/-/package_files/10143570/download",
                     "dest-filename": "fluffychat-linux.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "ad318879b6d97d56eb5980cb6a1051dbbe75c7159b9f5c8dbdeb3426d42497da"
+                    "sha256": "39193be8f8c0be80a9bf2f5946fd78da4c3507fe96190adeba4a63466e5db221"
                 },
                 {
                     "type": "file",
