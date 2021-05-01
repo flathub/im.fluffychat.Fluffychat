@@ -33,7 +33,7 @@
             "name": "fluffychat",
             "buildsystem": "simple",
             "only-arches": [
-                "x86_64"
+                "x86_64", "aarch64"
             ],
             "build-commands": [
                 "ls fluffychat",
@@ -50,10 +50,19 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/9186593/download",
+                    "only-arches": ["x86_64"],
+                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/10143566/download",
                     "dest-filename": "fluffychat-linux.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "7738115e8740b93fa1618e19097cc1b3ae1ea36e453ab5eb4054aa555bb5440e"
+                    "sha256": "ad318879b6d97d56eb5980cb6a1051dbbe75c7159b9f5c8dbdeb3426d42497da"
+                },
+                {
+                    "type": "archive",
+                    "only-arches": ["aarch64"],
+                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/10143570/download",
+                    "dest-filename": "fluffychat-linux.tar.gz",
+                    "dest": "fluffychat",
+                    "sha256": "ad318879b6d97d56eb5980cb6a1051dbbe75c7159b9f5c8dbdeb3426d42497da"
                 },
                 {
                     "type": "file",
