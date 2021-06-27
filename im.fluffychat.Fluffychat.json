@@ -52,18 +52,18 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/11315923/download",
-                    "dest-filename": "fluffychat-linux.tar.gz",
+                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/12621014/download",
+                    "dest-filename": "fluffychat-linux-x86.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "69da9af832355da6c71a5735bad5c5f46cc0f79966ca2525d74fa66572e1946b"
+                    "sha256": "1efe6beb9b557e05dc250d2ce9f2fd39bdc759210914932cdb2660af1cbe0dde"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/11315945/download",
-                    "dest-filename": "fluffychat-linux.tar.gz",
+                    "url": "https://gitlab.com/famedly/fluffychat/-/package_files/12621016/download",
+                    "dest-filename": "fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "0d324e9b23b605793a9965d033639afee425aeed8cc90444b1afd3a7bf2d41f2"
+                    "sha256": "83143d2cb5e2ad7363d482bf820ba328b49c23cc758afc398b605a23ae67beb2"
                 },
                 {
                     "type": "file",
