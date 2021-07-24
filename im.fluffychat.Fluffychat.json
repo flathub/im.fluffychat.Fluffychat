@@ -19,6 +19,17 @@
     ],
     "modules": [
         {
+            "name": "libjsoncpp",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.4.tar.gz",
+                    "sha256": "e34a628a8142643b976c7233ef381457efad79468c67cb1ae0b83a33d7493999"
+                }
+            ]
+        },
+        {
             "name": "olm",
             "buildsystem": "cmake",
             "sources": [
