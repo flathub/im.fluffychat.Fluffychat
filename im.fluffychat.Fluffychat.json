@@ -1,8 +1,8 @@
 {
     "app-id": "im.fluffychat.Fluffychat",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "20.08",
-    "sdk": "org.freedesktop.Sdk",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "40",
+    "sdk": "org.gnome.Sdk",
     "command": "fluffychat",
     "separate-locales": false,
     "finish-args": [
