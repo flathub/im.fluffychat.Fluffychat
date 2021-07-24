@@ -20,12 +20,16 @@
     "modules": [
         {
             "name": "libjsoncpp",
-            "buildsystem": "meson",
+            "buildsystem": "cmake",
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=release",
+                "-DBUILD_SHARED_LIBS=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.4.tar.gz",
-                    "sha256": "e34a628a8142643b976c7233ef381457efad79468c67cb1ae0b83a33d7493999"
+                    "url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.7.5.tar.gz",
+                    "sha256": "4338c6cab8af8dee6cdfd54e6218bd0533785f552c6162bb083f8dd28bf8fbbe"
                 }
             ]
         },
@@ -36,7 +40,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.matrix.org/matrix-org/olm.git",
-                    "tag": "3.2.1"
+                    "tag": "3.2.4"
                 }
             ]
         },
