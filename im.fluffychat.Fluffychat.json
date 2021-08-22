@@ -69,9 +69,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/0.37.0/fluffychat-linux-x86.tar.gz",
+                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/0.38.0/fluffychat-linux-x86.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "e4c623a028cfdf86843be500675ac3484068302cdc4ca0ea556d592ba90c7786",
+                    "sha256": "1537cd1fd6ce4691380f94c46b5745432544754ba1d1efef7a97a98e51237689",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
@@ -84,9 +84,9 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/0.37.0/fluffychat-linux-arm64.tar.gz",
+                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/0.38.0/fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "1c05436172a5ab749e68ef77f145b80b3467b5e6b3001fbf42357ef552634b26",
+                    "sha256": "9b1f2202ca5bc59940a197ac80264c42f14ede29d35f0c5f23a406765334653c",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
