@@ -32,11 +32,11 @@
 
   <screenshots>
     <screenshot>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-55-08.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-55-48.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-55-18.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-54-16.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/assets/images/screenshots/Gnome%20Screenshot%202020-11-25%2010-54-49.png</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-29-38.png</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-03.png</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-25.png</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-45.png</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-53.png</image>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
