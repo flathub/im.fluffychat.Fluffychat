@@ -13,21 +13,34 @@
   <developer_name>fluffychat.im</developer_name>
   <url type="homepage">https://fluffychat.im</url>
   <description>
-    <p>Open. Nonprofit. Cute ♥</p>
-    <p>This is an early Linux build of a Flutter based Android app, some features and parts of UI might be broken or missing</p>
-    <p>Greatest FluffyChat features:</p>
+    <p>FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.</p>
+    <h2 id="features">Features</h2>
     <ul>
-      <li>Opensource and open development where everyone can join</li>
-      <li>Nonprofit - FluffyChat is donation funded</li>
-      <li>Cute design and many theme settings including a dark mode</li>
-      <li>Unlimited groups and direct chats</li>
-      <li>FluffyChat is made as simple to use as possible</li>
-      <li>Free to use for everyone without ads</li>
-      <li>There is no "FluffyChat server" you are forced to use. Use the server you find trustworthy or host your own</li>
-      <li>Compatible with Element, Fractal, Nheko and all matrix messengers</li>
+    <li>Send all kinds of messages, images and files</li>
+    <li>Voice messages</li>
+    <li>Location sharing</li>
+    <li>Push notifications</li>
+    <li>Unlimited private and public group chats</li>
+    <li>Public channels with thousands of participants</li>
+    <li>Feature rich group moderation including all matrix features</li>
+    <li>Discover and join public groups</li>
+    <li>Dark mode</li>
+    <li>Hides complexity of Matrix IDs behind simple QR codes</li>
+    <li>Custom emotes and stickers</li>
+    <li>Video calls via sharing links to Jitsi</li>
+    <li>Spaces</li>
+    <li>Compatible with Element, Nheko, NeoChat and all other Matrix apps</li>
+    <li>End to end encryption</li>
+    <li>Emoji verification &amp; cross signing</li>
+    <li>And much more...</li>
     </ul>
-
-    <p>Join the discussion: #fluffychat:matrix.org</p>
+    <h2 id="fluffychat-comes-with-a-dream">FluffyChat comes with a dream</h2>
+    <p>Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.</p>
+    <p>A world where there are no companies spying on you when you send selfies to friends and lovers.</p>
+    <p>And a world where apps are made for fluffyness and not for profit. ♥</p>
+    <p>Join the community: <a href="https://matrix.to/#/#fluffychat:matrix.org">https://matrix.to/#/#fluffychat:matrix.org</a>
+    Website: <a href="http://fluffychat.im">http://fluffychat.im</a>
+    Microblog: <a href="https://metalhead.club/@krille">https://metalhead.club/@krille</a></p>
   </description>
 
   <screenshots>
