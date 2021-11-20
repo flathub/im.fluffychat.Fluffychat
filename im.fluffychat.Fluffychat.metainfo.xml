@@ -14,7 +14,7 @@
   <url type="homepage">https://fluffychat.im</url>
   <description>
     <p>FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.</p>
-    <h2 id="features">Features</h2>
+    <p>Features</p>
     <ul>
     <li>Send all kinds of messages, images and files</li>
     <li>Voice messages</li>
@@ -34,13 +34,13 @@
     <li>Emoji verification &amp; cross signing</li>
     <li>And much more...</li>
     </ul>
-    <h2 id="fluffychat-comes-with-a-dream">FluffyChat comes with a dream</h2>
+    <p>FluffyChat comes with a dream</p>
     <p>Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.</p>
     <p>A world where there are no companies spying on you when you send selfies to friends and lovers.</p>
     <p>And a world where apps are made for fluffyness and not for profit. ♥</p>
-    <p>Join the community: <a href="https://matrix.to/#/#fluffychat:matrix.org">https://matrix.to/#/#fluffychat:matrix.org</a>
-    Website: <a href="http://fluffychat.im">http://fluffychat.im</a>
-    Microblog: <a href="https://metalhead.club/@krille">https://metalhead.club/@krille</a></p>
+    <p>Join the community: https://matrix.to/#/#fluffychat:matrix.org
+    Website: http://fluffychat.im
+    Microblog: https://metalhead.club/@krille</p>
   </description>
 
   <screenshots>
