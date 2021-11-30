@@ -45,11 +45,12 @@
 
   <screenshots>
     <screenshot>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-29-38.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-03.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-25.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-45.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/Bildschirmfoto vom 2021-11-05 18-30-53.png</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/desktop.png</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase1.jpeg</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase2.jpeg</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase3.jpeg</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase4.jpeg</image>
+      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase5.jpeg</image>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
