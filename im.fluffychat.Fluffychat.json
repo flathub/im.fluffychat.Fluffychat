@@ -75,8 +75,8 @@
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
-                        "version-query": ".[0] | .tag_name | sub(\"v\";\"\")",
-                        "url-query": ".[0] | .assets  | .links[] | select(.name==\"fluffychat-linux-x86.tar.gz\") | .url"
+                        "version-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .tag_name | sub(\"v\";\"\")",
+                        "url-query": "first(.[] | select(.tag_name|startswith(\"v\")))  | .assets.links[] | select(.name==\"fluffychat-linux-x86.tar.gz\") | .url"
                     }
                 },
                 {
@@ -90,8 +90,8 @@
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
-                        "version-query": ".[0] | .tag_name | sub(\"v\";\"\")",
-                        "url-query": ".[0] | .assets  | .links[] | select(.name==\"fluffychat-linux-arm64.tar.gz\") | .url"
+                        "version-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .tag_name | sub(\"v\";\"\")",
+                        "url-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .assets.links[] | select(.name==\"fluffychat-linux-arm64.tar.gz\") | .url"
                     }
                 },
                 {
