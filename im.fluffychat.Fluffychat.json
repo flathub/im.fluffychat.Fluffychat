@@ -1,7 +1,7 @@
 {
     "app-id": "im.fluffychat.Fluffychat",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "41",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "fluffychat",
     "separate-locales": false,
