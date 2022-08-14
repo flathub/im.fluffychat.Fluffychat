@@ -84,9 +84,9 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.5.0/fluffychat-linux-arm64.tar.gz",
+                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.6.0/fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "ebaea2877898411aaf437a09e90c6ffcf2ae8b914a5157154f324dce045cac9d",
+                    "sha256": "b35a2b5a9b448414eaa995d59f3bb7e4b748f1969a58e0ac6ce10b8c4a054056",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
