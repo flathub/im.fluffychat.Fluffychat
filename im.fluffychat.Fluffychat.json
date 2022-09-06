@@ -89,6 +89,7 @@
                 "ln -s /usr/lib/x86_64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so",
                 "if [ ! -e '/app/lib/libsqlite3.so' ]; then ln -s -f /usr/lib/aarch64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so; fi",
                 "ln -s /app/fluffychat/fluffychat /app/bin/fluffychat",
+                "if [ $(arch) == \"aarch64\"  ]; then sed -si \"/Exec=/c\Exec=env GDK_GL=gles fluffychat %U\" im.fluffychat.Fluffychat.desktop; fi",
                 "install -Dm644 im.fluffychat.Fluffychat.desktop /app/share/applications/im.fluffychat.Fluffychat.desktop",
                 "install -Dm644 im.fluffychat.Fluffychat.metainfo.xml /app/share/appdata/im.fluffychat.Fluffychat.metainfo.xml"
             ],
