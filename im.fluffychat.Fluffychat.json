@@ -20,7 +20,9 @@
     "modules": [
         {
             "name": "libjsoncpp",
-            "only_arches": ["x86_64"],
+            "only_arches": [
+                "x86_64"
+            ],
             "buildsystem": "meson",
             "config-opts": [
                 "--buildtype=release",
@@ -37,7 +39,9 @@
         {
             "name": "libjsoncpp",
             "buildsystem": "cmake",
-            "only_arches": ["aarch64"],
+            "only_arches": [
+                "aarch64"
+            ],
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=release",
                 "-DBUILD_SHARED_LIBS=ON"
@@ -64,7 +68,10 @@
         {
             "name": "libsecret",
             "buildsystem": "meson",
-            "config-opts": ["-Dvapi=false", "-Dgtk_doc=false"],
+            "config-opts": [
+                "-Dvapi=false",
+                "-Dgtk_doc=false"
+            ],
             "sources": [
                 {
                     "type": "git",
@@ -89,7 +96,7 @@
                 "ln -s /usr/lib/x86_64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so",
                 "if [ ! -e '/app/lib/libsqlite3.so' ]; then ln -s -f /usr/lib/aarch64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so; fi",
                 "ln -s /app/fluffychat/fluffychat /app/bin/fluffychat",
-                "if [ $(arch) == \"aarch64\"  ]; then sed -si \"/Exec=/c\Exec=env GDK_GL=gles fluffychat %U\" im.fluffychat.Fluffychat.desktop; fi",
+                "if [ $(arch) == \"aarch64\"  ]; then sed -si \"/Exec=/cExec=env GDK_GL=gles fluffychat %U\" im.fluffychat.Fluffychat.desktop; fi",
                 "install -Dm644 im.fluffychat.Fluffychat.desktop /app/share/applications/im.fluffychat.Fluffychat.desktop",
                 "install -Dm644 im.fluffychat.Fluffychat.metainfo.xml /app/share/appdata/im.fluffychat.Fluffychat.metainfo.xml"
             ],
@@ -99,9 +106,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.6.3/fluffychat-linux-x86.tar.gz",
+                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.6.4/fluffychat-linux-x86.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "357dd9d245fac55dd30b338a3bc7b844dfd4841a6ec0fb0cc52725368d83d6bc",
+                    "sha256": "b416c32a44efb09b12010246e68454c16a2efc9df29c822151ee0049042d0b4c",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
@@ -114,9 +121,9 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.6.3/fluffychat-linux-arm64.tar.gz",
+                    "url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.6.4/fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "bcb053326e3582269205b5a4941a0637ef65e65298691c2a2aac495cca6c1686",
+                    "sha256": "f28efff7f8309d9082623987153e04bb45f58591cf095b9b4c578dc55cf2596b",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
