@@ -60,7 +60,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.matrix.org/matrix-org/olm.git",
-                    "tag": "3.2.9"
+                    "tag": "3.2.14"
                 }
             ]
         },
