@@ -16,7 +16,8 @@
 		"--talk-name=org.freedesktop.Notifications",
 		"--own-name=chat.fluffy.fluffychat"
 	],
-	"modules": [{
+	"modules": [
+		{
 			"name": "libjsoncpp",
 			"only_arches": [
 				"x86_64"
@@ -26,20 +27,42 @@
 				"--buildtype=release",
 				"--default-library=shared"
 			],
-			"sources": [{
+			"sources": [
+				{
 				"type": "archive",
 				"url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.5.tar.gz",
 				"sha256": "f409856e5920c18d0c2fb85276e24ee607d2a09b5e7d5f0a371368903c275da2"
-			}]
+				}
+			]
+		},
+		{
+			"name": "libjsoncpp",
+			"buildsystem": "cmake",
+			"only_arches": [
+				"aarch64"
+			],
+			"config-opts": [
+				"-DCMAKE_BUILD_TYPE=release",
+				"-DBUILD_SHARED_LIBS=ON"
+			],
+			"sources": [
+				{
+					"type": "archive",
+					"url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.7.5.tar.gz",
+					"sha256": "4338c6cab8af8dee6cdfd54e6218bd0533785f552c6162bb083f8dd28bf8fbbe"
+				}
+			]
 		},
 		{
 			"name": "olm",
 			"buildsystem": "cmake",
-			"sources": [{
+			"sources": [
+				{
 				"type": "git",
 				"url": "https://gitlab.matrix.org/matrix-org/olm.git",
 				"tag": "3.2.14"
-			}]
+				}
+			]
 		},
 		{
 			"name": "libsecret",
@@ -48,17 +71,20 @@
 				"-Dvapi=false",
 				"-Dgtk_doc=false"
 			],
-			"sources": [{
+			"sources": [
+				{
 				"type": "git",
 				"url": "https://gitlab.gnome.org/GNOME/libsecret.git",
 				"tag": "0.20.5"
-			}]
+				}
+			]
 		},
 		{
 			"name": "fluffychat",
 			"buildsystem": "simple",
 			"only-arches": [
-				"x86_64"
+				"x86_64",
+				"aarch64"
 			],
 			"build-commands": [
 				"ls fluffychat",
@@ -73,19 +99,35 @@
 				"install -Dm644 im.fluffychat.Fluffychat.desktop /app/share/applications/im.fluffychat.Fluffychat.desktop",
 				"install -Dm644 im.fluffychat.Fluffychat.metainfo.xml /app/share/appdata/im.fluffychat.Fluffychat.metainfo.xml"
 			],
-			"sources": [{
+			"sources": [
+				{
 					"type": "archive",
 					"only-arches": [
 						"x86_64"
 					],
-					"url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.10.0/fluffychat-linux-x86.tar.gz",
+					"url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.11.2/fluffychat-linux-x86.tar.gz",
 					"dest": "fluffychat",
-					"sha256": "623a82a293df1ba78a776681ddb5065f7cf1c0ccf5cc83ed450e885be8cb7b7d",
+					"sha256": "20bd3bd81f183f84220ef453037f40b236096b44b51e9649893b405999490f64",
 					"x-checker-data": {
 						"type": "json",
 						"url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
 						"version-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .tag_name | sub(\"v\";\"\")",
 						"url-query": "first(.[] | select(.tag_name|startswith(\"v\")))  | .assets.links[] | select(.name==\"fluffychat-linux-x86.tar.gz\") | .url"
+					}
+				},
+				{
+					"type": "archive",
+					"only-arches": [
+						"aarch64"
+					],
+					"url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.11.2/fluffychat-linux-arm64.tar.gz",
+					"dest": "fluffychat",
+					"sha256": "e1b1d1c378c5c1addcea377cffe18a557ff3d01c545db5febd782d0f7635cf3f",
+					"x-checker-data": {
+						"type": "json",
+						"url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
+						"version-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .tag_name | sub(\"v\";\"\")",
+						"url-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .assets.links[] | select(.name==\"fluffychat-linux-arm64.tar.gz\") | .url"
 					}
 				},
 				{
