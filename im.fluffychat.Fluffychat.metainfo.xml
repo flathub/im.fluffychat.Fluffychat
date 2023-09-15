@@ -45,12 +45,12 @@
 
   <screenshots>
     <screenshot>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/desktop.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase1.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase2.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase3.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase4.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase5.jpeg</image>
+      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/desktop.png</image>
+      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase1.jpeg</image>
+      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase2.jpeg</image>
+      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase3.jpeg</image>
+      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase4.jpeg</image>
+      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase5.jpeg</image>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
