@@ -55,6 +55,7 @@
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
   <releases>
+    <release version="1.14.4" date="2023-10-07"/>
     <release version="1.14.3" date="2023-09-30"/>
     <release version="1.14.1" date="2023-09-18"/>
     <release version="1.14.0" date="2023-09-15"/>
