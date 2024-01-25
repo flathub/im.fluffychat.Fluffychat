@@ -86,9 +86,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v1.17.0/fluffychat-linux-x64.tar.gz",
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v1.17.2/fluffychat-linux-x64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "ce095993390b4603defed082d17e89243af787cf11836f2bba6f514046be5850",
+                    "sha256": "ebde6a1b3f3f9a2a914791d2a57b786f4e2663e4cbba67c0d8fe6ad88f0766ef",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
