@@ -38,19 +38,32 @@
     <p>Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.</p>
     <p>A world where there are no companies spying on you when you send selfies to friends and lovers.</p>
     <p>And a world where apps are made for fluffyness and not for profit. ♥</p>
-    <p>Join the community: https://matrix.to/#/#fluffychat:matrix.org
-    Website: http://fluffychat.im
-    Microblog: https://metalhead.club/@krille</p>
   </description>
 
   <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/desktop.png</image>
+      <caption>Default screenshot for desktop</caption>
+    </screenshot>
     <screenshot>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/desktop.png</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase1.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase2.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase3.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase4.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase5.jpeg</image>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase1.jpeg</image>
+      <caption>The cutest messenger in Matrix</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase2.jpeg</image>
+      <caption>Secure, encrypted, decentralized</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase3.jpeg</image>
+      <caption>Send unlimited texts, photos and voice messages</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase4.jpeg</image>
+      <caption>Free, non-commercial and open source</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase5.jpeg</image>
+      <caption>Easy to use for everyone</caption>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
