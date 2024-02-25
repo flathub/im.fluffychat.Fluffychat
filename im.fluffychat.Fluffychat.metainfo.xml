@@ -44,13 +44,19 @@
   </description>
 
   <screenshots>
-    <screenshot>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/desktop.png</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase1.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase2.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase3.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase4.jpeg</image>
-      <image type="source">https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase5.jpeg</image>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/desktop.png</image>
+      <caption>Default screenshot for desktop</caption>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase1.jpeg</image>
+      <caption>The cutest messenger in Matrix</caption>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase2.jpeg</image>
+      <caption>Secure, encrypted, decentralized</caption>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase3.jpeg</image>
+      <caption>Send unlimited texts, photos and voice messages</caption>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase4.jpeg</image>
+      <caption>Free, non-commercial and open source</caption>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase5.jpeg</image>
+      <caption>Easy to use for everyone</caption>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
