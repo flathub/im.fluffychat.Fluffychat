@@ -14,7 +14,8 @@
         "--device=all",
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
-        "--own-name=chat.fluffy.fluffychat"
+        "--own-name=chat.fluffy.fluffychat",
+        "--talk-name=org.freedesktop.secrets"
     ],
     "modules": [
         {
