@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"app-id": "im.fluffychat.Fluffychat",
 	"runtime": "org.freedesktop.Platform",
 	"runtime-version": "23.08",
@@ -121,4 +122,119 @@
 			]
 		}
 	]
+=======
+    "app-id": "im.fluffychat.Fluffychat",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "23.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "fluffychat",
+    "separate-locales": false,
+    "finish-args": [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--share=network",
+        "--device=all",
+        "--filesystem=xdg-download",
+        "--talk-name=org.freedesktop.Notifications",
+        "--own-name=chat.fluffy.fluffychat",
+        "--talk-name=org.freedesktop.secrets"
+    ],
+    "modules": [
+        {
+            "name": "libjsoncpp",
+            "only_arches": [
+                "x86_64"
+            ],
+            "buildsystem": "meson",
+            "config-opts": [
+                "--buildtype=release",
+                "--default-library=shared"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.5.tar.gz",
+                    "sha256": "f409856e5920c18d0c2fb85276e24ee607d2a09b5e7d5f0a371368903c275da2"
+                }
+            ]
+        },
+        {
+            "name": "olm",
+            "buildsystem": "cmake",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.matrix.org/matrix-org/olm.git",
+                    "tag": "3.2.14"
+                }
+            ]
+        },
+        {
+            "name": "libsecret",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dvapi=false",
+                "-Dgtk_doc=false"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/GNOME/libsecret.git",
+                    "tag": "0.20.5"
+                }
+            ]
+        },
+        {
+            "name": "fluffychat",
+            "buildsystem": "simple",
+            "only-arches": [
+                "x86_64"
+            ],
+            "build-commands": [
+                "ls fluffychat",
+                "cp -r fluffychat /app/fluffychat",
+                "chmod +x /app/fluffychat/fluffychat",
+                "install -Dm644 logo.svg /app/share/icons/hicolor/scalable/apps/im.fluffychat.Fluffychat.svg",
+                "mkdir -p /app/bin",
+                "ln -s /usr/lib/x86_64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so",
+                "if [ ! -e '/app/lib/libsqlite3.so' ]; then ln -s -f /usr/lib/aarch64-linux-gnu/libsqlite3.so.0 /app/lib/libsqlite3.so; fi",
+                "ln -s /app/fluffychat/fluffychat /app/bin/fluffychat",
+                "if [ $(arch) == \"aarch64\"  ]; then sed -si \"/Exec=/cExec=env GDK_GL=gles fluffychat %U\" im.fluffychat.Fluffychat.desktop; fi",
+                "install -Dm644 im.fluffychat.Fluffychat.desktop /app/share/applications/im.fluffychat.Fluffychat.desktop",
+                "install -Dm644 im.fluffychat.Fluffychat.metainfo.xml /app/share/appdata/im.fluffychat.Fluffychat.metainfo.xml"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "only-arches": [
+                        "x86_64"
+                    ],
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v1.22.1/fluffychat-linux-x64.tar.gz",
+                    "dest": "fluffychat",
+                    "sha256": "49a98639c40be0d0b403f978b42b7d9403a3196fc10203dfd20e4888eec04e3e",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
+                        "version-query": ".tag_name | sub(\"v\";\"\")",
+                        "url-query": ".assets[] | select(.name==\"fluffychat-linux-x64.tar.gz\") | .browser_download_url"
+                    }
+                },
+                {
+                    "type": "file",
+                    "path": "im.fluffychat.Fluffychat.metainfo.xml"
+                },
+                {
+                    "type": "file",
+                    "path": "im.fluffychat.Fluffychat.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "logo.svg"
+                }
+            ]
+        }
+    ]
+>>>>>>> affecd7ac32a11286a427ddfc923c4a6c15d6cfe
 }
