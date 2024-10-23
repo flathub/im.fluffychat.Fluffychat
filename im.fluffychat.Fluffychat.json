@@ -1,7 +1,7 @@
 {
 	"app-id": "im.fluffychat.Fluffychat",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "22.08",
+	"runtime-version": "23.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "fluffychat",
 	"separate-locales": false,
@@ -32,24 +32,6 @@
 				"type": "archive",
 				"url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.5.tar.gz",
 				"sha256": "f409856e5920c18d0c2fb85276e24ee607d2a09b5e7d5f0a371368903c275da2"
-				}
-			]
-		},
-		{
-			"name": "libjsoncpp",
-			"buildsystem": "cmake",
-			"only_arches": [
-				"aarch64"
-			],
-			"config-opts": [
-				"-DCMAKE_BUILD_TYPE=release",
-				"-DBUILD_SHARED_LIBS=ON"
-			],
-			"sources": [
-				{
-					"type": "archive",
-					"url": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.7.5.tar.gz",
-					"sha256": "4338c6cab8af8dee6cdfd54e6218bd0533785f552c6162bb083f8dd28bf8fbbe"
 				}
 			]
 		},
@@ -120,15 +102,9 @@
 					"only-arches": [
 						"aarch64"
 					],
-					"url": "https://gitlab.com/api/v4/projects/16112282/packages/generic/fluffychat/1.11.2/fluffychat-linux-arm64.tar.gz",
+					"url": "https://github.com/Haui1112/fluffychat_aarch64/releases/download/v1.22.1_aarch64/fluffychat-linux-aarch64.tar.gz",
 					"dest": "fluffychat",
-					"sha256": "e1b1d1c378c5c1addcea377cffe18a557ff3d01c545db5febd782d0f7635cf3f",
-					"x-checker-data": {
-						"type": "json",
-						"url": "https://gitlab.com/api/v4/projects/famedly%2Ffluffychat/releases/",
-						"version-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .tag_name | sub(\"v\";\"\")",
-						"url-query": "first(.[] | select(.tag_name|startswith(\"v\"))) | .assets.links[] | select(.name==\"fluffychat-linux-arm64.tar.gz\") | .url"
-					}
+					"sha256": "5c26785a4a5d00d206ea404fe32ec8cc268f80e41df4b5dde382fa47be9220bd"
 				},
 				{
 					"type": "file",
