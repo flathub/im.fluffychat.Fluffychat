@@ -38,23 +38,60 @@
     <p>Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.</p>
     <p>A world where there are no companies spying on you when you send selfies to friends and lovers.</p>
     <p>And a world where apps are made for fluffyness and not for profit. ♥</p>
-    <p>Join the community: https://matrix.to/#/#fluffychat:matrix.org
-    Website: http://fluffychat.im
-    Microblog: https://metalhead.club/@krille</p>
   </description>
 
   <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/desktop.png</image>
+      <caption>Default screenshot for desktop</caption>
+    </screenshot>
     <screenshot>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/desktop.png</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase1.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase2.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase3.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase4.jpeg</image>
-      <image type="source">https://gitlab.com/famedly/fluffychat/-/raw/main/docs/screenshots/showcase5.jpeg</image>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase1.jpeg</image>
+      <caption>The cutest messenger in Matrix</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase2.jpeg</image>
+      <caption>Secure, encrypted, decentralized</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase3.jpeg</image>
+      <caption>Send unlimited texts, photos and voice messages</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase4.jpeg</image>
+      <caption>Free, non-commercial and open source</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat/main/docs/screenshots/showcase5.jpeg</image>
+      <caption>Easy to use for everyone</caption>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
   <releases>
+    <release version="1.22.1" date="2024-09-01">
+      <description></description>
+    </release>
+    <release version="1.21.2" date="2024-07-13">
+      <description/>
+    </release>
+    <release version="1.21.1" date="2024-06-17">
+      <description/>
+    </release>
+    <release version="1.21.0" date="2024-06-01">
+      <description/>
+    </release>
+    <release version="1.20.0" date="2024-04-29"/>
+    <release version="1.19.2" date="2024-04-14"/>
+    <release version="1.19.1" date="2024-04-10"/>
+    <release version="1.19.0" date="2024-04-01"/>
+    <release version="1.18.0" date="2024-02-25"/>
+    <release version="1.17.0" date="2024-01-06"/>
+    <release version="1.16.0" date="2023-12-08"/>
+    <release version="1.14.5" date="2023-10-08"/>
+    <release version="1.14.3" date="2023-09-30"/>
+    <release version="1.14.1" date="2023-09-18"/>
+    <release version="1.14.0" date="2023-09-15"/>
+    <release version="1.12.0" date="2023-06-11"/>
     <release version="1.11.2" date="2023-05-05"/>
     <release version="1.10.0" date="2023-03-12"/>
     <release version="1.8.0" date="2022-12-31"/>
