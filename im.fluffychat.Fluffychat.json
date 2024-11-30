@@ -20,9 +20,6 @@
     "modules": [
         {
             "name": "libjsoncpp",
-            "only_arches": [
-                "x86_64"
-            ],
             "buildsystem": "meson",
             "config-opts": [
                 "--buildtype=release",
@@ -66,7 +63,8 @@
             "name": "fluffychat",
             "buildsystem": "simple",
             "only-arches": [
-                "x86_64"
+                "x86_64",
+                "aarch64"
             ],
             "build-commands": [
                 "ls fluffychat",
@@ -87,14 +85,29 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v1.22.1/fluffychat-linux-x64.tar.gz",
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v1.23.0/fluffychat-linux-x64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "49a98639c40be0d0b403f978b42b7d9403a3196fc10203dfd20e4888eec04e3e",
+                    "sha256": "604dbf3d770977983e7f44b88bad845a190ba34734250de3fcf279c5660a07b5",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
                         "version-query": ".tag_name | sub(\"v\";\"\")",
                         "url-query": ".assets[] | select(.name==\"fluffychat-linux-x64.tar.gz\") | .browser_download_url"
+                    }
+                },
+                {
+                    "type": "archive",
+                    "only-arches": [
+                        "aarch64"
+                    ],
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v1.23.0/fluffychat-linux-arm64.tar.gz",
+                    "dest": "fluffychat",
+                    "sha256": "46fe08c638e08dd97e80e207a07d5819e70e10baf52e6a1cd8868659646e26e3",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
+                        "version-query": ".tag_name | sub(\"v\";\"\")",
+                        "url-query": ".assets[] | select(.name==\"fluffychat-linux-arm64.tar.gz\") | .browser_download_url"
                     }
                 },
                 {
