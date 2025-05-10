@@ -68,8 +68,11 @@
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
   <releases>
-    <release version="1.26.0" date="2025-04-27">
+    <release version="1.26.1" date="2025-05-10">
       <description></description>
+    </release>
+    <release version="1.26.0" date="2025-04-27">
+      <description/>
     </release>
     <release version="1.25.0" date="2025-02-20">
       <description/>
