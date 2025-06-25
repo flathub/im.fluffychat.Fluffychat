@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Fluffychat
+Name=FluffyChat
 Icon=im.fluffychat.Fluffychat
 Exec=fluffychat %U
 Categories=Network;InstantMessaging;Chat;VideoConference;
