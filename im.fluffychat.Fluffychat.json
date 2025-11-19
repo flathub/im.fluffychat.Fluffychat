@@ -34,17 +34,6 @@
             ]
         },
         {
-            "name": "olm",
-            "buildsystem": "cmake",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.matrix.org/matrix-org/olm.git",
-                    "tag": "3.2.14"
-                }
-            ]
-        },
-        {
             "name": "libsecret",
             "buildsystem": "meson",
             "config-opts": [
