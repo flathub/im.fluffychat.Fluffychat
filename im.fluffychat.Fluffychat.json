@@ -74,9 +74,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.3.1/fluffychat-linux-x64.tar.gz",
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.4.0/fluffychat-linux-x64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "e5f54a2697b742af9fde06b3a785faeb514b83f5ac49438a723f24673030b664",
+                    "sha256": "18dfca46315cc79ffaaba4adf78e76351758f606e77d9b2c002dddc095ed1508",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
@@ -89,9 +89,9 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.3.1/fluffychat-linux-arm64.tar.gz",
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.4.0/fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "b6f386ec386c7d98fdca5f9ae0cc8cb07acc56e6b95cb1bb83700568c92d1f31",
+                    "sha256": "01975674ccde4e2c3ca4ae4fe7bc6a292c1f509dfbd41bf966e6a52f51169113",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
