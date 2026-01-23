@@ -10,6 +10,9 @@
     <control>keyboard</control>
     <control>touch</control>
   </recommends>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
   <developer_name>fluffychat.im</developer_name>
   <url type="homepage">https://fluffychat.im</url>
   <description>
