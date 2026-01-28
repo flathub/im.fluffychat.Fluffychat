@@ -10,8 +10,14 @@
     <control>keyboard</control>
     <control>touch</control>
   </recommends>
-  <developer_name>fluffychat.im</developer_name>
-  <url type="homepage">https://fluffychat.im</url>
+  <developer id="im.fluffychat">
+    <name>Krille-chan</name>
+  </developer>
+  <update_contact>shiny@shine.horse</update_contact>
+  <url type="homepage">https://fluffy.chat</url>
+  <url type="bugtracker">https://github.com/krille-chan/fluffychat/issues</url>
+  <url type="vcs-browser">https://github.com/krille-chan/fluffychat</url>
+  <url type="faq">https://fluffy.chat/faq/</url>
   <description>
     <p>FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.</p>
     <p>Features</p>
@@ -64,120 +70,20 @@
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
   <releases>
-    <release version="2.4.1" date="2026-01-23">
-      <description></description>
-    </release>
-    <release version="2.4.0" date="2026-01-21">
-      <description/>
-    </release>
-    <release version="2.3.1" date="2025-11-20">
-      <description/>
-    </release>
-    <release version="2.3.0" date="2025-11-16">
-      <description/>
-    </release>
-    <release version="2.1.1" date="2025-08-30">
-      <description/>
-    </release>
-    <release version="2.0.0" date="2025-06-20">
-      <description/>
-    </release>
-    <release version="1.27.0" date="2025-06-06">
-      <description/>
-    </release>
-    <release version="1.26.1" date="2025-05-10">
-      <description/>
-    </release>
-    <release version="1.26.0" date="2025-04-27">
-      <description/>
-    </release>
-    <release version="1.25.0" date="2025-02-20">
-      <description/>
-    </release>
-    <release version="1.23.0" date="2024-11-30">
-      <description/>
-    </release>
-    <release version="1.22.1" date="2024-09-01">
-      <description/>
-    </release>
-    <release version="1.21.2" date="2024-07-13">
-      <description/>
-    </release>
-    <release version="1.21.1" date="2024-06-17">
-      <description/>
-    </release>
-    <release version="1.21.0" date="2024-06-01">
-      <description/>
-    </release>
-    <release version="1.20.0" date="2024-04-29"/>
-    <release version="1.19.2" date="2024-04-14"/>
-    <release version="1.19.1" date="2024-04-10"/>
-    <release version="1.19.0" date="2024-04-01"/>
-    <release version="1.18.0" date="2024-02-25"/>
-    <release version="1.17.0" date="2024-01-06"/>
-    <release version="1.16.0" date="2023-12-08"/>
-    <release version="1.14.5" date="2023-10-08"/>
-    <release version="1.14.3" date="2023-09-30"/>
-    <release version="1.14.1" date="2023-09-18"/>
-    <release version="1.14.0" date="2023-09-15"/>
-    <release version="1.12.0" date="2023-06-11"/>
-    <release version="1.11.2" date="2023-05-05"/>
-    <release version="1.10.0" date="2023-03-12"/>
-    <release version="1.8.0" date="2022-12-31"/>
-    <release version="1.7.1" date="2022-11-23"/>
-    <release version="1.6.4" date="2022-09-08"/>
-    <release version="1.6.3" date="2022-08-30"/>
-    <release version="1.6.1" date="2022-08-14"/>
-    <release version="1.6.0" date="2022-08-12"/>
-    <release version="1.5.0" date="2022-06-06"/>
-    <release version="1.4.0" date="2022-05-06"/>
-    <release version="1.3.1" date="2022-03-23"/>
-    <release version="1.3.0" date="2022-02-25"/>
-    <release version="1.2.0" date="2022-01-27"/>
-    <release version="1.1.0" date="2021-12-08"/>
-    <release version="1.0.1" date="2021-11-30"/>
-    <release version="1.0.0" date="2021-11-30"/>
-    <release version="0.42.3" date="2021-11-16"/>
-    <release version="0.42.2" date="2021-11-04"/>
-    <release version="0.42.1" date="2021-10-26"/>
-    <release version="0.42.0" date="2021-10-14"/>
-    <release version="0.41.4" date="2021-10-09"/>
-    <release version="0.41.2" date="2021-09-22"/>
-    <release version="0.41.1" date="2021-09-20"/>
-    <release version="0.41.0" date="2021-09-19"/>
-    <release version="0.40.1" date="2021-09-14"/>
-    <release version="0.39.1" date="2021-08-30"/>
-    <release version="0.39.0" date="2021-08-29"/>
-    <release version="0.38.0" date="2021-08-22"/>
-    <release version="0.37.0" date="2021-08-06"/>
-    <release version="0.36.3" date="2021-08-03"/>
-    <release version="0.36.0" date="2021-07-31"/>
-    <release version="0.35.0" date="2021-07-24"/>
-    <release version="0.34.1" date="2021-07-14"/>
-    <release version="0.33.2" date="2021-06-29"/>
-    <release version="0.33.0" date="2021-06-26"/>
-    <release version="0.31.3" date="2021-05-28"/>
-    <release version="0.30.0" date="2021-05-01"/>
-    <release version="0.29.0" date="2021-04-10"/>
-    <release version="0.28.1" date="2021-03-28"/>
-    <release version="0.28.0" date="2021-03-21"/>
-    <release version="0.26.1" date="2021-01-29"/>
-    <release version="0.26.0" date="2021-01-26"/>
-    <release version="0.25.1" date="2021-01-17"/>
-    <release version="0.25.0" date="2021-01-17"/>
-    <release version="0.24.3" date="2021-01-15"/>
-    <release version="0.24.2" date="2021-01-09"/>
-    <release version="0.24.1" date="2020-12-24"/>
-    <release version="0.24.0" date="2020-12-18"/>
-    <release version="0.23.1" date="2020-11-25"/>
-    <release version="0.22.1" date="2020-11-22"/>
-    <release version="0.21.0" date="2020-10-28"/>
-    <release version="0.20.0" date="2020-10-23"/>
+    <release version="2.4.1" date="2026-01-23"/>
+    <release version="2.4.0" date="2026-01-21"/>
+    <release version="2.3.1" date="2025-11-20"/>
+    <release version="2.3.0" date="2025-11-16"/>
+    <release version="2.1.1" date="2025-08-30"/>
+    <release version="2.0.0" date="2025-06-20"/>
+    <release version="1.27.0" date="2025-06-06"/>
+    <release version="1.26.1" date="2025-05-10"/>
+    <release version="1.26.0" date="2025-04-27"/>
+    <release version="1.25.0" date="2025-02-20"/>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="social-chat">intense</content_attribute>
     <content_attribute id="social-audio">intense</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
-  <update_contact>shiny@shine.horse</update_contact>
 </component>
