@@ -10,14 +10,17 @@
     <control>keyboard</control>
     <control>touch</control>
   </recommends>
+  <requires>
+    <display_length compare="ge">300</display_length>
+  </requires>
+  <url type="homepage">https://fluffychat.im</url>
   <developer id="im.fluffychat">
     <name>Krille-chan</name>
   </developer>
   <update_contact>shiny@shine.horse</update_contact>
-  <url type="homepage">https://fluffy.chat</url>
   <url type="bugtracker">https://github.com/krille-chan/fluffychat/issues</url>
   <url type="vcs-browser">https://github.com/krille-chan/fluffychat</url>
-  <url type="faq">https://fluffy.chat/faq/</url>
+  <url type="faq">https://fluffychat.im/faq/</url>
   <description>
     <p>FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.</p>
     <p>Features</p>
