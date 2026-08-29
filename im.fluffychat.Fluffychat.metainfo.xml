@@ -22,21 +22,21 @@
   <url type="vcs-browser">https://github.com/krille-chan/fluffychat</url>
   <description>
     <p>The open-source, non-profit European alternative to big tech’s messaging and video-call monopoly. End-to-end encrypted, decentralized, and easy to use for everyone.</p>
-    <h3>Messaging how it should be</h3>
+    <p>Messaging how it should be</p>
     <p>Whether for your friends, your company or local community, FluffyChat supports a variety of features to cover all your daily needs.</p>
-    <h4>Easy to use</h4>
+    <p>Easy to use</p>
     <p>Simply install, log in and start chatting. The intuitive user interface makes secure communication as easy as possible.</p>
-    <h4>Secure</h4>
+    <p>Secure</p>
     <p>With olm/megolm end-to-end encryption, encrypted message backups and an automated key trust system, FluffyChat is among the most secure messengers available.</p>
-    <h4>Decentral</h4>
+    <p>Decentral</p>
     <p>Based on the open Matrix protocol we build a decentralized messaging network together, which no entity can control. Host your own chat server while remaining in contact with everyone.</p>
-    <h3>Feature rich and reliable</h3>
+    <p>Feature rich and reliable</p>
     <p>From public chats with tens of thousands of participants and polls to custom stickers, spaces, rich moderation tools, and multi-device support, FluffyChat delivers a comprehensive communication suite.</p>
-    <h4>Secure video calls</h4>
+    <p>Secure video calls</p>
     <p>Direct calls and video conferences, fully secured with Matrix RTC-compatible encryption.</p>
-    <h4>Not another walled garden</h4>
+    <p>Not another walled garden</p>
     <p>We do not build another walled garden! FluffyChat is fully compatible with any other Matrix client like Element, Nheko, Cinny or NeoChat. Learn more at matrix.org.</p>
-    <h4>Made by volunteers</h4>
+    <p>Made by volunteers</p>
     <p>FluffyChat is a non-profit project based on open standards and driven entirely by volunteers. Infrastructure is funded by donations, and participation is open to everyone.</p>
   </description>
 
