@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>im.fluffychat.Fluffychat</id>
-  <name>FluffyChat</name>
-  <summary>Chat with your friends</summary>
+  <name>FluffyChat Matrix Messenger</name>
+  <summary>Your communication should be yours.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>AGPL-3.0-only</project_license>
   <recommends>
@@ -17,58 +17,41 @@
   <developer id="im.fluffychat">
     <name>Krille-chan</name>
   </developer>
-  <update_contact>shiny@shine.horse</update_contact>
+  <update_contact>christian-kussowski@posteo.de</update_contact>
   <url type="bugtracker">https://github.com/krille-chan/fluffychat/issues</url>
   <url type="vcs-browser">https://github.com/krille-chan/fluffychat</url>
-  <url type="faq">https://fluffychat.im/faq/</url>
   <description>
-    <p>FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.</p>
-    <p>Features</p>
-    <ul>
-    <li>Send all kinds of messages, images and files</li>
-    <li>Voice messages</li>
-    <li>Location sharing</li>
-    <li>Push notifications</li>
-    <li>Unlimited private and public group chats</li>
-    <li>Public channels with thousands of participants</li>
-    <li>Feature rich group moderation including all matrix features</li>
-    <li>Discover and join public groups</li>
-    <li>Dark mode</li>
-    <li>Hides complexity of Matrix IDs behind simple QR codes</li>
-    <li>Custom emotes and stickers</li>
-    <li>Video calls via sharing links to Jitsi</li>
-    <li>Spaces</li>
-    <li>Compatible with Element, Nheko, NeoChat and all other Matrix apps</li>
-    <li>End to end encryption</li>
-    <li>Emoji verification &amp; cross signing</li>
-    <li>And much more...</li>
-    </ul>
-    <p>FluffyChat comes with a dream</p>
-    <p>Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.</p>
-    <p>A world where there are no companies spying on you when you send selfies to friends and lovers.</p>
-    <p>And a world where apps are made for fluffyness and not for profit. ♥</p>
+    <p>The open-source, non-profit European alternative to big tech’s messaging and video-call monopoly. End-to-end encrypted, decentralized, and easy to use for everyone.</p>
+    <h3>Messaging how it should be</h3>
+    <p>Whether for your friends, your company or local community, FluffyChat supports a variety of features to cover all your daily needs.</p>
+    <h4>Easy to use</h4>
+    <p>Simply install, log in and start chatting. The intuitive user interface makes secure communication as easy as possible.</p>
+    <h4>Secure</h4>
+    <p>With olm/megolm end-to-end encryption, encrypted message backups and an automated key trust system, FluffyChat is among the most secure messengers available.</p>
+    <h4>Decentral</h4>
+    <p>Based on the open Matrix protocol we build a decentralized messaging network together, which no entity can control. Host your own chat server while remaining in contact with everyone.</p>
+    <h3>Feature rich and reliable</h3>
+    <p>From public chats with tens of thousands of participants and polls to custom stickers, spaces, rich moderation tools, and multi-device support, FluffyChat delivers a comprehensive communication suite.</p>
+    <h4>Secure video calls</h4>
+    <p>Direct calls and video conferences, fully secured with Matrix RTC-compatible encryption.</p>
+    <h4>Not another walled garden</h4>
+    <p>We do not build another walled garden! FluffyChat is fully compatible with any other Matrix client like Element, Nheko, Cinny or NeoChat. Learn more at matrix.org.</p>
+    <h4>Made by volunteers</h4>
+    <p>FluffyChat is a non-profit project based on open standards and driven entirely by volunteers. Infrastructure is funded by donations, and participation is open to everyone.</p>
   </description>
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_1.png</image>
+      <image>https://github.com/krille-chan/fluffychat-website/blob/main/public/img/screenshot_desktop.png?raw=true</image>
       <caption>Default screenshot for desktop</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_2.png</image>
+      <image>https://github.com/krille-chan/fluffychat-website/blob/main/public/img/screenshot_mobile.png?raw=true</image>
       <caption>The cutest messenger in Matrix</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_3.png</image>
+      <image>https://github.com/krille-chan/fluffychat-website/blob/main/public/img/screenshot_mobile_2.png?raw=true</image>
       <caption>Secure, encrypted, decentralized</caption>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_4.png</image>
-      <caption>Send unlimited texts, photos and voice messages</caption>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_5.png</image>
-      <caption>Free, non-commercial and open source</caption>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
