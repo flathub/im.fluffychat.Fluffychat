@@ -35,6 +35,55 @@
             ]
         },
         {
+            "name": "libplacebo",
+            "buildsystem": "meson",
+            "config-opts": [
+                "--buildtype=release",
+                "-Dvulkan=disabled",
+                "-Ddemos=false",
+                "-Dtests=false"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://code.videolan.org/videolan/libplacebo.git",
+                    "tag": "v7.351.0",
+                    "commit": "3188549fba13bbdf3a5a98de2a38c2e71f04e21e"
+                }
+            ]
+        },
+        {
+            "name": "libass",
+            "config-opts": [
+                "--disable-static",
+                "--disable-asm"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.xz",
+                    "sha256": "eae425da50f0015c21f7b3a9c7262a910f0218af469e22e2931462fed3c50959"
+                }
+            ]
+        },
+        {
+            "name": "mpv",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dlibmpv=true",
+                "-Dcplayer=false",
+                "-Dpdf-build=disabled",
+                "-Dlua=disabled"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/mpv-player/mpv/archive/refs/tags/v0.38.0.tar.gz",
+                    "sha256": "86d9ef40b6058732f67b46d0bbda24a074fae860b3eaae05bab3145041303066"
+                }
+            ]
+        },
+        {
             "name": "fluffychat",
             "buildsystem": "simple",
             "only-arches": [
