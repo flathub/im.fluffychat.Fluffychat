@@ -56,13 +56,16 @@
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
   <releases>
+    <release version="2.11.1" date="2026-10-19">
+      <description></description>
+    </release>
     <release version="2.10.0-1" date="2026-10-04">
       <description>
         <p>Fix missing libmpv dependency for media playback.</p>
       </description>
     </release>
     <release version="2.10.0" date="2026-10-02">
-      <description></description>
+      <description/>
     </release>
     <release version="2.9.5" date="2026-09-10">
       <description/>
