@@ -56,8 +56,12 @@
   </screenshots>
   <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
   <releases>
-    <release version="2.11.3" date="2026-10-24">
+    <release version="2.11.5" date="2026-11-06">
+      <url type="details">https://github.com/krille-chan/fluffychat/releases/tag/v2.11.5</url>
       <description></description>
+    </release>
+    <release version="2.11.3" date="2026-10-24">
+      <description/>
     </release>
     <release version="2.11.1" date="2026-10-19">
       <description/>
