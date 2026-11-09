@@ -1,7 +1,7 @@
 {
     "app-id": "im.fluffychat.Fluffychat",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "fluffychat",
     "separate-locales": false,
@@ -44,11 +44,11 @@
                 "-Dtests=false"
             ],
             "sources": [
-                {
+                {    
                     "type": "git",
                     "url": "https://code.videolan.org/videolan/libplacebo.git",
-                    "tag": "v7.351.0",
-                    "commit": "3188549fba13bbdf3a5a98de2a38c2e71f04e21e"
+                    "tag": "v7.387.0",
+                    "commit": "275f7dea27924cdd34ab2e6c20e448b6bc4fab65"
                 }
             ]
         },
@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/mpv-player/mpv/archive/refs/tags/v0.38.0.tar.gz",
-                    "sha256": "86d9ef40b6058732f67b46d0bbda24a074fae860b3eaae05bab3145041303066"
+                    "url": "https://github.com/mpv-player/mpv/archive/refs/tags/v0.42.0.tar.gz",
+                    "sha256": "bcfebbfa2b65a6d88dc97ea18117831072373e38b5785a2afb874ed4df5070dd"
                 }
             ]
         },
