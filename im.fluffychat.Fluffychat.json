@@ -44,7 +44,7 @@
                 "-Dtests=false"
             ],
             "sources": [
-                {    
+                {
                     "type": "git",
                     "url": "https://code.videolan.org/videolan/libplacebo.git",
                     "tag": "v7.387.0",
@@ -109,9 +109,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.11.5/fluffychat-linux-x64.tar.gz",
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.11.6/fluffychat-linux-x64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "e0d4440e8689f16af7bc34468cceebb3a3faa02163c29927d35aed640ebc0b29",
+                    "sha256": "e9b56bd58bcc597125c4576a1e6a9a274bfb214d9a4fba4666192e32d9880ad2",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
@@ -124,9 +124,9 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.11.5/fluffychat-linux-arm64.tar.gz",
+                    "url": "https://github.com/krille-chan/fluffychat/releases/download/v2.11.6/fluffychat-linux-arm64.tar.gz",
                     "dest": "fluffychat",
-                    "sha256": "f813712e572c7b601ee668ec32caa782190873ce0d592f409ebcdf5fa9a84d42",
+                    "sha256": "480f2eb943e0b951126e29e3ca160eaef28315555c95d992b521776d302c0938",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/krille-chan/fluffychat/releases/latest",
